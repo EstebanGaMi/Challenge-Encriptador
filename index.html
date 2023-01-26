@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/8b850564d4.js" crossorigin="anonymous"></script>
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header class="title">
+        <div class="logo">
+            <img class="logoImg" src="images/Vector.png" alt="">
+            <h1 class="titulo">Decodificador de mensajes</h1>
+        </div>
+    </header>
+    <main class="container">
+
+        <section class="derecha">
+            <div class="left">
+                <input class="text-input" id="inputTexto" type="text" placeholder="Ingrese texto aquí">
+            </div>
+            <div class="left-button">
+                <p class="subti">solo minusculas y sin acentos</p>
+                <form class="form">
+                    <!-- <button class="button1" title="limpiar" type="button" id="limpiarb" onclick="limpiar()">Limpiar</button> -->
+
+                    <button class="button2" title="encriptar" type="button" id="encripb"
+                        onclick="encriptar()">Encriptar</button>
+
+                    <button class="button3" title="desencriptar" type="button" id="desencripb"
+                        onclick="desencriptar()">Desencriptar</button>
+                </form>
+            </div>
+        </section>
+        <section class="izquierda">
+            <div class="right">
+                <img src="./images/no.png" id="imgRight" alt="">
+                <h2 id="texto">Ningun mensaje fue encontrado</h2>
+                <textarea class="input2" id="texto2" type="text"
+                    placeholder="No hay texto a traducir">Ingrese el texto que desee encriptar o desencriptar</textarea>
+                <button class="button4" id="copy" type="button" onclick="copy()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+        <div class="footer-right">
+            <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/esteban-garay-4baa94202/" target=_blank><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/EstebanGaMi" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+
+        <div class="footer-left">
+            <p>Derechos reservados: Esteban Garay © 2023</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
